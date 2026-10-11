@@ -1,7 +1,7 @@
 const canvas = document.getElementById('gameArea');
 const ctx = canvas.getContext('2d');
 const scoreBoard = document.getElementById('scoreBoard');
-const timeDisplay = document.getElementById('gameOver');
+const timeDisplay = document.getElementById('timer');
 const gameOverScreen = document.getElementById('finalScore');
 
 let score = 0;
@@ -131,7 +131,7 @@ function update() {
         ctx.beginPath();
         ctx.moveTo(startX, startY);
         ctx.lineTo(endX, endY);
-        ctx.strokeStyle = `rgba(0,0,0,0.5)`;
+        ctx.strokeStyle = `black`;
         ctx.lineWidth = 2;
         ctx.stroke();
     }
@@ -142,9 +142,9 @@ function update() {
 function drawBow() {
     ctx.beginPath();
     ctx.arc(50, canvas.height / 2, 20, 0, Math.PI * 2);
-    ctx.fillStyle = `#808080`;
+    ctx.fillStyle = `gray`;
     ctx.fill();
-    ctx.strokeStyle = '#000';
+    ctx.strokeStyle = 'black';
     ctx.stroke();
 }
 
@@ -154,11 +154,11 @@ function drawTarget() {
     ctx.fill();
     ctx.beginPath();
     ctx.arc(target.x, target.y, target.radius * 0.6, 0, Math.PI * 2);
-    ctx.fillStyle = `#ff0000`;
+    ctx.fillStyle = `red`;
     ctx.fill();
     ctx.beginPath();
     ctx.arc(target.x, target.y, target.radius * 0.3, 0, Math.PI * 2);
-    ctx.fillStyle = `#ffffff`;
+    ctx.fillStyle = `white`;
     ctx.fill();
 }
 
