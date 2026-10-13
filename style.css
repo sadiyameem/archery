@@ -33,3 +33,26 @@ body {
     text-align: left;
     margin-bottom: 10px;
 }
+
+/* #container {
+    background-color: greenyellow;
+    border: 5px solid yellowgreen;
+    height: 250px;
+    width: 250px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#btn {
+    margin: 50px auto;
+    height: 50px;
+    width: 50px;
+    font-size: 13px;
+    background-color: lightblue;
+}
+
+#output {
+    margin: 15px auto;
+    font-size: 16px;
+    color: black;
+} */

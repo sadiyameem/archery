@@ -184,3 +184,19 @@ function resetGame() {
 }
 
 update();
+
+// let btn = document.getElementById('btn');
+// let output = document.getElementById('output');
+// let quotes = [
+//     'The first bows and arrows were made by ancient Egyptians, about 3,000 years ago.',
+//     'Archery was an important skill during the Middle Ages. Many armies trained archers to fight in battle.',
+//     'In the USA, the National Archery Association was founded in 1879. It is the oldest sport-governing body in the United States.',
+//     'Archery is an official Olympic sport. It has been part of the Summer Plympic program since 1900.',
+//     'The worlds fastest archer can shoot an arrow at speeds of over 300 mph.',
+//     'Archery is not just a sport. Its also an art form. Many archers create beatiful works of art with their bows and arrows.',
+// ];
+
+// btn.addEventListener('click', function() {
+//     var randomQuote = quotes[Math.floor(Math.random() * quotes.length)]
+//     output.innerHTML = randomQuote;
+// })
